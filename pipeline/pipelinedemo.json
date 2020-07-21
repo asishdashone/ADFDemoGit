@@ -1,0 +1,17 @@
+{
+	"name": "pipelinedemo",
+	"properties": {
+		"activities": [
+			{
+				"name": "Waitdemo",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 5
+				}
+			}
+		],
+		"annotations": []
+	}
+}
